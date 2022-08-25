@@ -1,0 +1,36 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 3rem;
+    background: white;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+.services  {
+    display: flex;
+   
+}
+
+.services a {
+    padding: 0 2rem;;
+}
+
+@media (max-width: 820px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        background: white;
+        color: black;
+        font-size: 1.1rem;
+    }
+    .services a {
+        padding: 0 1rem;;
+    }
+}

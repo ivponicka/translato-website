@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.pricing {
+  margin: 80px 105px;
+}
+
+.pricing--title {
+  color: rgb(100, 28, 87);
+  font-size: 52px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 3rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(100, 28, 87);
+}
+
+.MuiTypography-body1 {
+    font-size: 22px;
+}
+
+.button-submit {
+  width: 130px;
+}
+
+.pricing--info {
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .pricing {
+    margin: 70px 100px;
+  }
+
+  .pricing--title {
+    font-size: 36px;
+    margin-bottom: 1rem;
+  }
+  .price .highlighted-header, .price .basic-header {
+      font-size: 20px;
+  }
+}
+

@@ -1,0 +1,57 @@
+.carusel--img {
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+    border-radius: 15px;
+    border: 1px solid rgb(100, 28, 87);;
+}
+
+
+.translators--main {
+    background-color: rgba(140, 117, 136, 0.237);
+    padding: 4rem;
+}
+
+.translators {
+    color: rgb(100, 28, 87);
+    font-size: 52px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(100, 28, 87);
+  }
+
+  @media (max-width: 1000px){
+    .carusel--img {
+        width: 200px;
+        height: 200px;
+    }
+    .translators--main {
+        padding: 2rem;
+    }
+    .translators {
+        font-size: 36px;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+      }
+  }
+
+  @media (max-width: 1000px){
+    .carusel--img {
+        width: 150px;
+        height: 150px;
+    }
+    .translators--main {
+        padding: rem;
+    }
+    .translators {
+        font-size: 36px;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+      }
+  }
